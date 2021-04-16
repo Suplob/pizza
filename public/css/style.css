@@ -40,3 +40,21 @@ section.hero {
   color: #fff;
 }
 
+.btn-primary {
+  background: #FE5F1E;
+  transition: all 300ms ease-in-out;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #b23301;
+}
+
+section.cart {
+  background: #f8f8f8;
+}
+
+.amount {
+  color: #FE5F1E;
+}
+

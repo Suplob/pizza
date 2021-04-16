@@ -41,3 +41,21 @@ section.hero{
 
     }
 }
+
+.btn-primary{
+    background:$primary;
+    transition:$transition;
+    color:white;
+    
+        &:hover{
+            background:$primary-hover;
+        }   
+}
+
+section.cart{
+    background:$secondary;
+}
+
+.amount{
+    color:$primary;
+}

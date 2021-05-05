@@ -27,7 +27,8 @@
     "express-flash": "0.0.2",
     "express-session": "^1.17.1",
     "laravel-mix": "^5.0.5",
-    "mongoose": "^5.12.5"
+    "mongoose": "^5.12.5",
+    "noty": "^3.2.0-beta-deprecated"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",

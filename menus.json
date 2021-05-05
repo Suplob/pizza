@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "5eee651f739f8c674fd736ee"
+  },
+  "name": "Pizza 1",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee6671a27a66807cf2bea3"
+  },
+  "name": "Pizza 2",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee6692a27a66807cf2bea4"
+  },
+  "name": "Pizza 3",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee66a5a27a66807cf2bea5"
+  },
+  "name": "Pizza 4",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee66c4a27a66807cf2bea6"
+  },
+  "name": "Pizza 5",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee66cfa27a66807cf2bea7"
+  },
+  "name": "Pizza 6",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee66eea27a66807cf2bea8"
+  },
+  "name": "Pizza 7",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "5eee6717a27a66807cf2bea9"
+  },
+  "name": "Pizza 8",
+  "image": "pizza.png",
+  "price": "9.99",
+  "size": "small"
+},
+]

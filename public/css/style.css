@@ -370,3 +370,7 @@ section.cart {
   padding-left: 8px !important;
 }
 
+#logout {
+  cursor: pointer;
+}
+

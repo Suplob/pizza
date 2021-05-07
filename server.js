@@ -25,11 +25,6 @@ connection.once('open', ()=> {
 })
 
 
-const passportInit = require('./app/config/passport')
-passportInit(passport)
-
-app.use(passport.initialize())
-app.use(passport.session())
 
 
 
@@ -43,6 +38,12 @@ app.use(session({
     cookie: {maxage: 1000 * 60 *60 * 24}
 }))
 
+const passportInit = require('./app/config/passport')
+passportInit(passport   )
+
+app.use(passport.initialize())
+app.use(passport.session())
+
 
 
 app.use(flash());
@@ -53,6 +54,7 @@ app.use(express.urlencoded({extended:false}))
 
 app.use((req, res, next) => {
     res.locals.session = req.session
+    res.locals.user = req.user
     next()
 })
 

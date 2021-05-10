@@ -66,7 +66,7 @@ function authController(){
                 password: hashedPassword
             })
             user.save().then((user)=>{
-                return res.redirect('/')
+                return res.redirect('/login')
             }).catch(err => {
                 req.flash('error', 'Missing credentials')
                 return res.redirect('/register')

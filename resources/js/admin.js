@@ -29,7 +29,7 @@ export function initAdmin(socket){
       }
 
        function generateMarkup(orders){
-        return orders.map(order =>{
+        return orders.map(order => {
             return `
                 <tr>
                 <td class="border px-4 py-2 text-green-900">
